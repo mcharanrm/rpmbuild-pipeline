@@ -83,6 +83,7 @@ spec:
       description: List of platform overrides (MPLs).
       type: array
       default:
+        - localhost
         - linux/arm64
         - linux/ppc64le
         - linux/s390x
